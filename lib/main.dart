@@ -22,7 +22,34 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: HomeScreen(), //MyHomePage(title: 'Flutter Demo Home Page'),
+    );
+  }
+}
+
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
+  @override
+  _HomeScreenState createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Home'),
+      ),
+      body: Container(
+        color: Colors.white,
+        child: Center(
+          child: Text(
+            'Home Screen',
+            style: TextStyle(fontSize: 32),
+          ),
+        ),
+      ),
     );
   }
 }
