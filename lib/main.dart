@@ -65,6 +65,7 @@ class MyHomePage extends StatefulWidget {
   // case the title) provided by the parent (in this case the App widget) and
   // used by the build method of the State. Fields in a Widget subclass are
   // always marked "final".
+  ///fksdjkfksjdf
 
   final String title;
 
@@ -94,6 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // The Flutter framework has been optimized to make rerunning build methods
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
+    // changes in mainn fioe.  fm,dk
     return Scaffold(
       appBar: AppBar(
         // Here we take the value from the MyHomePage object that was created by
